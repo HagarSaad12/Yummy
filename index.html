@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <title>Yummy</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+<body class="bg-black">
+    <div class="loadingScreen">
+        <span class="loader"></span>
+      </div>
+ 
+     
+
+
+<!-- Navbar -->
+<aside class="position-fixed top-0 bottom-0 d-flex align-items-center bg-dark z-3">
+    <div class="menu h-100 d-flex flex-column justify-content-between z-3">
+        <ul class="list-unstyled px-0 py-3 overflow-hidden">
+            <a id="search" class="position-relative text-white" href="#search">Search</a>
+            <a id="categories" class="position-relative text-white" href="#categories">Categories</a>
+            <a id="area" class="position-relative text-white" href="#area">Area</a>
+            <a id="ingredients" class="position-relative text-white" href="#ingredients">Ingredients</a>
+            <a id="contact" class="position-relative text-white" href="#contact">Contact Us</a>
+        </ul>
+        <div>
+            <div class="brands px-4">
+                <i class="text-white fa-brands fa-facebook"></i>
+                <i class="text-white fa-brands fa-twitter"></i>
+                <i class="text-white fa-solid fa-globe"></i>
+            </div>
+            <p class="text-white px-4 pb-4">
+                Copyright © 2019 All Rights <br> Reserved.
+            </p>
+        </div>
+    </div>
+    <div class="option px-2 py-3 h-100 d-flex bg-white flex-column justify-content-between align-items-center">
+        <div>
+            <img src="images/logo.png" class="logo" alt="">
+        </div>
+        <div id="options-icon">
+            <i class="fa-solid fa-bars text-black fa-2x d-flex align-items-center"></i>
+        </div>
+        <div class="d-flex flex-column gap-2">
+            <i class="fa-solid fa-globe"></i>
+            <i class="fa-solid fa-share-nodes"></i>
+        </div>
+
+    </div>
+</aside>
+      
+  <!-- end navlinks -->
+  <!-- start search section -->
+  <div id="searchcomponent" class="div1 d-none">
+    <div class="searchInputs w-75 mx-auto d-flex justify-content-center my-5">
+      <input type="text" name="" id="searchName" class="me-3 text-white form-control bg-transparent" placeholder="Search By Name">
+      <input type="text" name="" id="searchFirstLetter" placeholder="Search By First Letter" class="form-control bg-transparent text-white">
+    </div>
+    <div class="container">
+      <div class="row g-5" id="rowSearch">
+         
+      </div>
+    </div>
+     
+  </div>
+   <div class="min-vh-100 position-relative div1">
+    <div class="container">
+        <div class="row g-5 mt-5" id="rowData">
+
+        </div>
+    </div>
+   </div>
+   <!-- end component -->
+  <!-- start contact -->
+   
+  <!-- end contact -->
+ 
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
